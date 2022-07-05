@@ -1,0 +1,15 @@
+.Toastify {
+  .Toastify__toast-container--top-center {
+    width: 100%;
+    top: 5%;
+    left: -100;
+    padding: 0;
+    margin: 0;
+
+    .Toastify__toast {
+      .Toastify__close-button {
+        align-self: center;
+      }
+    }
+  }
+}

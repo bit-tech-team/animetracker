@@ -1,0 +1,58 @@
+@import "../../scss/index.scss";
+
+.top-bar {
+  height: 50px;
+  position: static;
+  background-color: $background-grey-dark;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  position: -webkit-sticky !important;
+  position: sticky;
+  top: 0;
+
+  &__left {
+    i {
+      font-size: 20px !important;
+      color: $font-light;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+
+    a {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      color: $font-light;
+
+      &:hover {
+        color: $primary-color;
+      }
+
+      img {
+        width: 25px;
+        height: 25px;
+        margin-right: 0px;
+        border-radius: 50px;
+      }
+    }
+    i {
+      margin-top: -5px;
+      margin-right: -20px;
+      color: $font-light;
+      &:hover {
+        cursor: pointer;
+        color: red;
+      }
+    }
+  }
+}

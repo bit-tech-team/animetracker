@@ -1,0 +1,206 @@
+@import url("../../assets/css/telma.css");
+@import "../../scss/index.scss";
+
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gainsboro;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.highlight {
+  color: rgb(209, 197, 197);
+  font-weight: bold;
+}
+
+.container-contribution {
+  display: grid;
+  grid-template-columns: 1.5fr 0.1fr 1.5fr;
+  grid-template-rows: 0.4fr 1.3fr 1.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "side-left-top . side-right-top"
+    "side-left-bottom . side-right-bottom";
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: "Telma-Variable";
+    text-align: justify;
+  }
+
+  li {
+    list-style: none;
+    letter-spacing: 0.5px;
+    font-family: "Telma-Variable";
+    text-align: justify;
+  }
+
+  i {
+    cursor: pointer;
+  }
+
+  a {
+    color: #949aa7;
+    text-decoration: none;
+  }
+
+  .header-contribution {
+    grid-area: header;
+    padding: 10px;
+
+    h1 {
+      font-family: "Telma-Variable";
+      text-align: center;
+    }
+  }
+
+  .side-left-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "side-left-top__title side-left-top__title side-left-top__title"
+      "side-left-top__content side-left-top__content side-left-top__content"
+      "side-left-top__content side-left-top__content side-left-top__content";
+    grid-area: side-left-top;
+    margin: 5px;
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+
+    .side-left-top__title {
+      grid-area: side-left-top__title;
+      padding: 10px;
+
+      h3 {
+        font-family: "Telma-Variable";
+        text-align: left;
+        letter-spacing: 2px;
+      }
+    }
+
+    .side-left-top__content {
+      grid-area: side-left-top__content;
+    }
+  }
+
+  .side-right-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "side-right-top__title side-right-top__title side-right-top__title"
+      "side-right-top__content side-right-top__content side-right-top__content"
+      "side-right-top__content side-right-top__content side-right-top__content";
+    grid-area: side-right-top;
+    margin: 5px;
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+
+    .side-right-top__title {
+      grid-area: side-right-top__title;
+      padding: 10px;
+
+      h3 {
+        font-family: "Telma-Variable";
+        text-align: right;
+        letter-spacing: 2px;
+      }
+    }
+
+    .side-right-top__content {
+      grid-area: side-right-top__content;
+    }
+  }
+
+  .side-left-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "side-left-bottom__title side-left-bottom__title side-left-bottom__title"
+      "side-left-bottom__content side-left-bottom__content side-left-bottom__content"
+      "side-left-bottom__content side-left-bottom__content side-left-bottom__content";
+    grid-area: side-left-bottom;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    margin-top: -35px;
+
+    .side-left-bottom__title {
+      grid-area: side-left-bottom__title;
+      padding: 10px;
+
+      h3 {
+        font-family: "Telma-Variable";
+        text-align: center;
+        letter-spacing: 2px;
+      }
+    }
+
+    .side-left-bottom__content {
+      grid-area: side-left-bottom__content;
+      margin: 5px;
+    }
+  }
+
+  .side-right-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "side-right-bottom__title side-right-bottom__title side-right-bottom__title"
+      "side-right-bottom__content side-right-bottom__content side-right-bottom__content"
+      "side-right-bottom__content side-right-bottom__content side-right-bottom__content";
+    grid-area: side-right-bottom;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    margin-top: -35px;
+
+    .side-right-bottom__title {
+      grid-area: side-right-bottom__title;
+      padding: 10px;
+
+      h3 {
+        font-family: "Telma-Variable";
+        text-align: center;
+        letter-spacing: 2px;
+      }
+    }
+
+    .side-right-bottom__content {
+      grid-area: side-right-bottom__content;
+      margin: 5px;
+    }
+  }
+}

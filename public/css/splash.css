@@ -1,0 +1,85 @@
+body {
+	overflow: hidden;
+}
+body.visibleSplash {
+	overflow: visible !important;
+}
+.splashScreen {
+	width: 100%;
+ 	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border-bottom: 5px solid #333;
+	overflow: hidden;
+}
+.loadingContainer {
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	overflow: hidden;
+}
+.loadingBox {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.splashLogo {
+	width: 50%;
+	margin: 0 0 50px;
+}
+.loadingBarContainer {
+    width: 100%;
+    background: #eee;
+    height: 10px;
+    display: block;
+    margin: 50px 0 0;
+    overflow: hidden;
+}
+.loadingbar {
+	width: 100%;
+	height:10px;
+	background: #000;
+	position: absolute;
+	left: -100%;
+}
+.loadingCircle {
+	width: 75px;
+	height: 75px;
+	margin: 30px auto 0;
+	background: #fff;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+.circleOuter {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+.circleLoader {
+	width: 75px;
+	height: 75px;
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(125,185,232,0) 100%);
+	position: absolute;
+	right: 50%;
+	bottom: 50%;
+	transform-origin: bottom right;
+	z-index: 1;
+	animation: rotateLoader 1.5s linear infinite;
+}
+@keyframes rotateLoader {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/splash.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="splashBody">
+      <div class="splashScreen">
+        <div class="loadingContainer">
+          <div class="loadingBox">
+            <img src="img/bttl.png" class="splashLogo" />
+            <div class="loadingBarContainer">
+              <div class="loadingbar"></div>
+            </div>
+
+            <div class="loadingCircle">
+              <div class="circleOuter"></div>
+              <div class="circleLoader"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(".loadingbar").delay(1500).animate({ left: "0" }, 3000);
+      $(".loadingBox").delay(500).animate({ opacity: "1" }, 1000);
+      $(".loadingCircle").delay(4500).animate({ opacity: "0" }, 500);
+    </script>
+  </body>
+</html>
