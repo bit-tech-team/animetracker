@@ -1,9 +1,10 @@
 {
-  "name": "anime-tracker",
+  "name": "AnimeTracker",
   "version": "1.0.0",
   "private": true,
   "main": "public/electron.js",
   "author": "Ridel Saavedra Flores",
+  "description": "Anime Scene Search by Image",
   "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -66,6 +67,10 @@
     ],
     "directories": {
       "buildResources": "assets"
+    },
+    "win": {
+      "icon": "public/favicon.ico",
+      "target": "NSIS"
     }
   }
 }

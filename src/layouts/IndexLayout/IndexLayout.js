@@ -1,29 +1,27 @@
 import React from "react";
 import { Grid } from "semantic-ui-react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as RouterApp } from "react-router-dom";
 import Routes from "../../routes/Routes";
 
 import TopBar from "../../components/TopBar";
 import MenuLeft from "../../components/MenuLeft";
 import "./IndexLayout.scss";
 
-export default function IndexLayout(props) {
-  const { user, setReloadApp } = props;
-
+export default function IndexLayout() {
   return (
-    <Router>
+    <RouterApp>
       <Grid className="logged-layout">
         <Grid.Row>
           <Grid.Column width={3}>
-            <MenuLeft user={user} />
+            <MenuLeft />
           </Grid.Column>
 
           <Grid.Column className="content" width={13}>
-            <TopBar user={user} />
-            <Routes user={user} setReloadApp={setReloadApp} />
+            <TopBar />
+            <Routes />
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    </Router>
+    </RouterApp>
   );
 }

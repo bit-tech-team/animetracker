@@ -1,38 +1,35 @@
 import React from "react";
-import { Switch, Route, Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 //pages
 import Home from "../pages/Home";
 import Help from "../pages/Help";
 import Contribution from "../pages/Contribution";
-import FinderURL from "../pages/FinderURL/FinderURL";
-import FinderIMG from "../pages/FinderIMG/FinderIMG";
-import Terms from "../pages/Terms/Terms";
+import FinderURL from "../pages/FinderURL";
+import FinderIMG from "../pages/FinderIMG";
+import Terms from "../pages/Terms";
 
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact>
+      <Route exact path="/">
         <Home />
       </Route>
-      <Route path="/help" exact>
+      <Route path="/help">
         <Help />
       </Route>
-      <Route path="/contribution" exact>
+      <Route path="/contribution">
         <Contribution />
       </Route>
-      <Route path="/finder-url" exact>
+      <Route path="/finder-url">
         <FinderURL />
       </Route>
-      <Route path="/finder-image" exact>
+      <Route path="/finder-image">
         <FinderIMG />
       </Route>
-      <Route path="/terms" exact>
+      <Route path="/terms">
         <Terms />
       </Route>
-      {/* <Route path="/notes" exact>
-        <Notas />
-      </Route> */}
     </Switch>
   );
 }

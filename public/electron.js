@@ -11,10 +11,11 @@ const createWindow = () => {
     frame: false,
     show: false,
     resizable: false,
+    icon: __dirname + "/favicon.ico",
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
-      devTools: true,
+      devTools: false,
       preload: path.join(__dirname, "./preload.js"),
     },
   });
@@ -42,7 +43,7 @@ const createWindow = () => {
     win.show();
   }, 6300);
 
-  win.setIcon(path.join(__dirname, "./img/logo/logo-500x500.png"));
+  /* win.setIcon(path.join(__dirname, "./favicon.ico")); */
 
   if (isDev) {
     win.webContents.openDevTools();
