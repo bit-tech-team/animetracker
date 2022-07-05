@@ -14,7 +14,6 @@
     "content content content-side";
 
   .carousel-container {
-    /*  background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +25,6 @@
   }
 
   .content {
-    /* background-color: blue; */
     grid-area: content;
     padding: 10px;
     margin: 10px;
@@ -41,7 +39,6 @@
   }
 
   .content-side {
-    /* background-color: white; */
     grid-area: content-side;
     padding: 5px;
     h4 {

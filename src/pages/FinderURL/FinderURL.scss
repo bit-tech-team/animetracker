@@ -27,7 +27,6 @@ $reset-time: 150ms;
 
   .result-found {
     grid-area: result-found;
-    /*  background-color: red; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -35,7 +34,6 @@ $reset-time: 150ms;
 
     .content-video {
       width: 100%;
-      /* background-color: red; */
       
       p{
         font-family: "Telma-Variable";
@@ -51,7 +49,6 @@ $reset-time: 150ms;
         display: flex;
         align-items: center;
         justify-content: center;
-        /* background-color: red; */
         width: 100% !important;
         height: 400px !important;
         padding: 5px;

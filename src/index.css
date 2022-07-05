@@ -5,9 +5,7 @@ body {
   font-size: 10pt;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #949aa7;
-  background-position: center;
-  background-size: auto;
-  background-repeat: no-repeat;
+  background: #110f15;
 }
 :not(input):not(textarea),
 :not(input):not(textarea)::after,
@@ -44,7 +42,6 @@ a {
   width: 100%;
   height: 40px;
   border-bottom: 3px solid #343848;
-  /* background-color: rgb(41, 40, 40); */
   -webkit-user-select: none;
 }
 
@@ -104,14 +101,6 @@ a {
   cursor: pointer;
 }
 
-/* .titleBarBtns > .topBtn:hover {
-  background-color: #272c36;
-}
-
-.titleBarBtns > .topBtn:active {
-  background-color: #4f9fee;
-} */
-
 .titleBarBtns > .maximizeBtn {
   font-size: 17px;
   margin: auto;
@@ -143,8 +132,6 @@ a {
 }
 
 .mainApp > .contentArea {
-  /* overflow-y: scroll;
-  overflow-x: hidden; */
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -154,7 +141,6 @@ a {
 .contentArea > .leftMenu {
   width: 200px;
   height: 100%;
-  /* background-color: #272c36; */
   transition: 0.4s;
 }
 
