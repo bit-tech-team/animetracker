@@ -6,6 +6,10 @@
     Anime-Tracker
 </h1>
 
+<p align="center">
+ <img src="https://img.shields.io/github/stars/Bit-Tech-Team/Anime-Tracker?style=social" />
+</p>
+
 <h2>
     Video Demo
 </h2>
