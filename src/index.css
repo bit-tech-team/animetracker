@@ -5,7 +5,6 @@ body {
   font-size: 10pt;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #949aa7;
-  background: #110f15;
 }
 :not(input):not(textarea),
 :not(input):not(textarea)::after,

@@ -108,6 +108,7 @@
 
     .send:hover {
       outline: 0;
+      background-color: $primary-color-hover;
     }
 
     @media (min-width: 768px) {
