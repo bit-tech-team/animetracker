@@ -1,11 +1,11 @@
 import React from "react";
 import { Grid } from "semantic-ui-react";
-import Routes from "../../routes/Routes";
-import "./IndexLayout.scss";
 import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "../../routes/Routes";
 
 import TopBar from "../../components/TopBar";
 import MenuLeft from "../../components/MenuLeft";
+import "./IndexLayout.scss";
 
 export default function IndexLayout(props) {
   const { user, setReloadApp } = props;
@@ -23,11 +23,6 @@ export default function IndexLayout(props) {
             <Routes user={user} setReloadApp={setReloadApp} />
           </Grid.Column>
         </Grid.Row>
-        {/* <Grid.Row>
-          <Grid.Column width={16}>
-            <h2>Player</h2>
-          </Grid.Column>
-        </Grid.Row> */}
       </Grid>
     </Router>
   );

@@ -7,7 +7,6 @@
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-
   grid-template-areas:
     "carousel-container carousel-container carousel-container"
     "content content content-side"
@@ -39,6 +38,7 @@
   }
 
   .content-side {
+
     grid-area: content-side;
     padding: 5px;
     h4 {

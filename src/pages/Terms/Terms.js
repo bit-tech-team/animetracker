@@ -1,6 +1,7 @@
 import React from "react";
 import "./Terms.scss";
 import { Icon } from "semantic-ui-react";
+import { openUrl } from "../../utils/helpers";
 
 export default function Terms() {
   return (
@@ -20,7 +21,41 @@ export default function Terms() {
           <ul>
             <li>
               Using this APP for commercial purpose (such as reselling) is
-              forbidden
+              forbidden.
+            </li>
+            <li>
+              By using this APP you agree to abide by the terms and conditions
+              described in this section.
+            </li>
+            <li>
+              Anime tracker does not save any of your images, they are processed
+              by the API and deleted after a few seconds.
+            </li>
+            <li>
+              I am not responsible for problems that anime tracker may cause on
+              your computer.
+            </li>
+            <li>
+              Anime Tracker does not require any permissions to run, nor does it
+              need to be run in administrator mode.
+            </li>
+            <li>Any inappropriate use of this app is totally forbidden.</li>
+            <li>
+              Bit Teach Team retains the rights to explain and make changes to
+              above terms.
+            </li>
+            <li>
+              There is no guarantee that the APP will stay like this forever,
+              any changes or improvements will be updated in the Anime Tracker
+              repository.{" "}
+              <span>
+                <Icon
+                  name="github"
+                  onClick={() =>
+                    openUrl("https://github.com/Bit-Tech-Team/Anime-Tracker")
+                  }
+                />
+              </span>
             </li>
           </ul>
         </div>
@@ -66,7 +101,7 @@ export default function Terms() {
                 <Icon name="patreon" />
                 <a
                   rel="noopener noreferrer"
-                  href="https://github.com/Bit-Tech-Team"
+                  href="https://www.patreon.com/soruly"
                   target="_blank"
                 >
                   <b>Patreon</b>
@@ -77,7 +112,7 @@ export default function Terms() {
                 <Icon name="discord" />
                 <a
                   rel="noopener noreferrer"
-                  href="https://github.com/Bit-Tech-Team"
+                  href="https://discord.gg/K9jn6Kj"
                   target="_blank"
                 >
                   <b>Discord</b>

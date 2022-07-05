@@ -13,11 +13,11 @@ export default function Contribution() {
       {/* ------------------- APP CREATOR SECTION ------------------- */}
       <div className="side-left-top">
         <div className="side-left-top__title">
-          <h3>Contribute with the APP creator (shakar)</h3>
+          <h3>Contribute with the APP creator (Ridel/shakar)</h3>
         </div>
         <div className="side-left-top__content">
           <p>
-            If you want to contribute with the APP or the API here are some
+            If you want to contribute with the APP here are some
             links
           </p>
           <ul className="highlight">
@@ -25,12 +25,14 @@ export default function Contribution() {
               <span>
                 <Icon
                   name="github"
-                  onClick={() => openUrl("https://github.com/Bit-Tech-Team")}
+                  onClick={() =>
+                    openUrl("https://github.com/Bit-Tech-Team/Anime-Tracker")
+                  }
                 />
               </span>
               <a
                 rel="noopener noreferrer"
-                href="https://github.com/Bit-Tech-Team"
+                href="https://github.com/Bit-Tech-Team/Anime-Tracker"
                 target="_blank"
               >
                 APP repositorie
@@ -40,12 +42,16 @@ export default function Contribution() {
               <span>
                 <Icon
                   name="github"
-                  onClick={() => openUrl("https://github.com/Bit-Tech-Team")}
+                  onClick={() =>
+                    openUrl(
+                      "https://github.com/Bit-Tech-Team/Anime-Tracker/issues/new"
+                    )
+                  }
                 />
               </span>
               <a
                 rel="noopener noreferrer"
-                href="https://github.com/Bit-Tech-Team"
+                href="https://github.com/Bit-Tech-Team/Anime-Tracker/issues/new"
                 target="_blank"
               >
                 Open an issue for new features or anything else
@@ -61,7 +67,7 @@ export default function Contribution() {
         </div>
         <div className="side-right-top__content">
           <p>
-            If you want to contribute with the APP or the API here are some
+            If you want to contribute with the API here are some
             links
           </p>
           <ul className="highlight">
@@ -108,13 +114,12 @@ export default function Contribution() {
 
       <div className="side-left-bottom">
         <div className="side-left-bottom__title">
-          <h3>Support the APP creator (shakar)</h3>
+          <h3>Support the APP creator (Ridel/shakar)</h3>
         </div>
         <div className="side-left-bottom__content">
           <p>
-            Did you like the app? Do you want to support the people who have
-            made it possible? well then you have some links for it, whether you
-            want to support the creator of the APP or the creator of the API
+            Did you like the APP? Do you want to support the people who have
+            made it possible? well then you have some links for it.
           </p>
           <ul className="highlight">
             <li>
@@ -158,9 +163,8 @@ export default function Contribution() {
         </div>
         <div className="side-right-bottom__content">
           <p>
-            Did you like the app? Do you want to support the people who have
-            made it possible? well then you have some links for it, whether you
-            want to support the creator of the APP or the creator of the API
+            Did you like the API? Do you want to support the people who have
+            made it possible? well then you have some links for it.
           </p>
           <ul className="highlight">
             <li>
@@ -203,7 +207,7 @@ export default function Contribution() {
               </span>
               <a
                 rel="noopener noreferrer"
-                href="patreon.com/soruly"
+                href="https://www.patreon.com/soruly"
                 target="_blank"
               >
                 Patreon

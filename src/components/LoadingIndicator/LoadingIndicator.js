@@ -1,7 +1,7 @@
 import React from "react";
 
 import { usePromiseTracker } from "react-promise-tracker";
-import { Triangle, ThreeCircles } from "react-loader-spinner";
+import { ThreeCircles } from "react-loader-spinner";
 
 import "./LoadingIndicator.scss";
 

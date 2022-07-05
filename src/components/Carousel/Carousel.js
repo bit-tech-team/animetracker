@@ -1,8 +1,10 @@
 import React from "react";
-import "./Carousel.scss";
 import COE from "../../assets/img/classroom-of-the-elite.jpg";
 import BNH from "../../assets/img/boku-no-hero.png";
 import ASS from "../../assets/img/arifureta.jpg";
+
+import "./Carousel.scss";
+
 export default function Carousel() {
   return (
     <>

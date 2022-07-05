@@ -1,33 +1,6 @@
 @import url("../../assets/css/telma.css");
 @import "../../scss/index.scss";
 
-/* Designing for scroll-bar */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: gainsboro;
-  border-radius: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-.highlight {
-  color: rgb(209, 197, 197);
-  font-weight: bold;
-}
-
 .container-contribution {
   display: grid;
   grid-template-columns: 1.5fr 0.1fr 1.5fr;
@@ -38,8 +11,6 @@
     "header header header"
     "side-left-top . side-right-top"
     "side-left-bottom . side-right-bottom";
-  overflow-y: scroll;
-  overflow-x: hidden;
 
   p {
     font-size: 16px;
@@ -97,11 +68,13 @@
         font-family: "Telma-Variable";
         text-align: left;
         letter-spacing: 2px;
+        
       }
     }
 
     .side-left-top__content {
       grid-area: side-left-top__content;
+      margin: 15px;
     }
   }
 
@@ -133,6 +106,7 @@
 
     .side-right-top__content {
       grid-area: side-right-top__content;
+      margin: 15px;
     }
   }
 
@@ -165,7 +139,7 @@
 
     .side-left-bottom__content {
       grid-area: side-left-bottom__content;
-      margin: 5px;
+      margin: 15px;
     }
   }
 
@@ -198,7 +172,7 @@
 
     .side-right-bottom__content {
       grid-area: side-right-bottom__content;
-      margin: 5px;
+      margin: 15px;
     }
   }
 }

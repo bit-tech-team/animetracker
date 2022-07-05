@@ -1,0 +1,52 @@
+@import url("../../assets/css/telma.css");
+@import "../../scss/index.scss";
+
+.highlight {
+  color: rgb(209, 197, 197);
+  font-weight: bold;
+}
+
+.container-help {
+  display: grid;
+  grid-template-columns: 1.1fr 0.8fr 1.1fr;
+  grid-template-rows: 0.4fr 2.6fr 0.1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header-help header-help header-help"
+    "content-help content-help content-help"
+    ". . .";
+
+  p {
+    font-family: "Telma-Variable";
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .header-help {
+    grid-area: header-help;
+    padding: 10px;
+
+    h1 {
+      font-family: "Telma-Variable";
+      text-align: center;
+    }
+  }
+
+  .content-help {
+    grid-area: content-help;
+    padding: 10px;
+    margin: 5px;
+
+    .demo-vid-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    h1 {
+      font-family: "Telma-Variable";
+      text-align: left;
+    }
+  }
+}

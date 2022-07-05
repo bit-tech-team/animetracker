@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./MenuLeft.scss";
 import { Menu, Icon } from "semantic-ui-react";
 import { Link, withRouter } from "react-router-dom";
+
+import "./MenuLeft.scss";
 
 function MenuLeft(props) {
   const { location } = props;

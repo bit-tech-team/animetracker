@@ -140,6 +140,7 @@ a {
 .contentArea > .leftMenu {
   width: 200px;
   height: 100%;
+
   transition: 0.4s;
 }
 
@@ -149,26 +150,4 @@ a {
   -webkit-box-align: center;
   -webkit-box-pack: center;
   display: -webkit-box;
-}
-
-/* Designing for scroll-bar */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: gainsboro;
-  border-radius: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }

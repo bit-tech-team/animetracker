@@ -40,7 +40,9 @@ export default function FinderURL() {
     setItem({});
 
     if (!validURL.test(inputVal)) {
-      toast.error("Allowed formats: png, jpg, jpeg");
+      toast.error(
+        "Invalid url or wrong extension, allowed extensions: png, jpg, jpeg. Example URL: https://domainurl/imagetotest.png"
+      );
     } else {
       trackPromise(fetchData(inputVal));
     }

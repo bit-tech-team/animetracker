@@ -96,7 +96,6 @@ export default function FinderIMG() {
         <div className="result-list">
           <LoadingIndicator />
           <div className="container-data">
-            {console.log(data)}
             <ul className="list-items">
               {data.map((item) => (
                 <li key={generarId()} onClick={() => setItem(item)}>

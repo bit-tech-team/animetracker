@@ -8,6 +8,9 @@
   height: 94vh;
   width: 100%;
   padding-top: 50px;
+  position: -webkit-sticky !important;
+  position: sticky;
+  top: 0%;
 
   .top {
     position: -webkit-sticky !important;
