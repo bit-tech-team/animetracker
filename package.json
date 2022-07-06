@@ -69,8 +69,13 @@
       "buildResources": "assets"
     },
     "win": {
-      "icon": "public/favicon.ico",
-      "target": "NSIS"
+      "icon": "build/favicon.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "installerIcon": "build/favicon.ico"
     }
   }
 }
