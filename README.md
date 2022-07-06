@@ -10,6 +10,7 @@
  <img src="https://img.shields.io/github/stars/Bit-Tech-Team/Anime-Tracker?style=social" />
  <img src="https://img.shields.io/github/issues-closed-raw/Bit-Tech-Team/Anime-Tracker" />
  <img src="https://img.shields.io/github/issues-raw/Bit-Tech-Team/Anime-Tracker" />
+ <img src="https://img.shields.io/github/v/release/Bit-Tech-Team/Anime-Tracker" />
 </p>
 
 <h2>
