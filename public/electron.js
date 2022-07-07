@@ -86,16 +86,14 @@ const createWindow = () => {
     }
   };
 
+  autoUpdater.checkForUpdatesAndNotify();
+
   win.webContents.on("will-navigate", handleRedirect);
   win.webContents.on("new-window", handleRedirect);
 };
 
 app.whenReady().then(() => {
   createWindow();
-});
-
-app.on("window-all-closed", () => {
-  if (process.platform !== "darwin") app.quit();
 });
 
 ipcMain.on("app_version", (event) => {
@@ -110,4 +108,6 @@ autoUpdater.on("update-downloaded", () => {
   win.webContents.send("update_downloaded");
 });
 
-autoUpdater.quitAndInstall();
+ipcMain.on("restart_app", () => {
+  autoUpdater.quitAndInstall();
+});
