@@ -97,9 +97,8 @@ const createWindow = () => {
 
   win.webContents.on("will-navigate", handleRedirect);
   win.webContents.on("new-window", handleRedirect);
-  win.once("ready-to-show", () => {
-    autoUpdater.checkForUpdatesAndNotify();
-  });
+
+  autoUpdater.checkForUpdatesAndNotify();
 };
 
 app.whenReady().then(() => {
