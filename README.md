@@ -38,5 +38,3 @@ https://user-images.githubusercontent.com/31443880/177372466-b0c239f3-7158-40a8-
 ## Deploy in local
 
 Run ``yarn electron-dev`` to run the application in developer mode (**make sure that port 3000 is not in use**). If you want to compile the app run ``yarn electron-pack-build`` and this will create a folder called **dist** where the installation **.exe** is located
-
-
