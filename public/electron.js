@@ -1,4 +1,5 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
+const { autoUpdater } = require("electron-updater");
 const path = require("path");
 const ipc = ipcMain;
 const isDev = require("electron-is-dev");
@@ -15,7 +16,7 @@ const createWindow = () => {
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
-      devTools: false,
+      devTools: true,
       preload: path.join(__dirname, "./preload.js"),
     },
   });
@@ -43,8 +44,6 @@ const createWindow = () => {
     win.show();
   }, 6300);
 
-  /* win.setIcon(path.join(__dirname, "./favicon.ico")); */
-
   if (isDev) {
     win.webContents.openDevTools();
   }
@@ -65,12 +64,28 @@ const createWindow = () => {
     }
   });
 
+  ipcMain.on("app_version", (event) => {
+    event.sender.send("app_version", { version: app.getVersion() });
+  });
+
+  ipcMain.on("restart_app", () => {
+    autoUpdater.quitAndInstall();
+  });
+
   win.on("maximize", () => {
     win.webContents.send("isMaximized");
   });
 
   win.on("unmaximize", () => {
     win.webContents.send("isRestored");
+  });
+
+  autoUpdater.on("update-available", () => {
+    win.webContents.send("update_available");
+  });
+
+  autoUpdater.on("update-downloaded", () => {
+    win.webContents.send("update_downloaded");
   });
 
   var handleRedirect = (e, url) => {
@@ -82,6 +97,9 @@ const createWindow = () => {
 
   win.webContents.on("will-navigate", handleRedirect);
   win.webContents.on("new-window", handleRedirect);
+  win.once("ready-to-show", () => {
+    autoUpdater.checkForUpdatesAndNotify();
+  });
 };
 
 app.whenReady().then(() => {

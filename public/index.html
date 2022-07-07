@@ -29,6 +29,7 @@
       <div class="topBar">
         <div class="titleBar">
           <div class="title">Anime Tracker</div>
+          <p id="version"></p>
         </div>
         <div class="titleBarBtns">
           <button
@@ -42,6 +43,15 @@
       <div class="contentArea">
         <div class="contentPages">
           <div id="root"></div>
+          <div id="notification" class="hidden">
+            <p id="message"></p>
+            <button id="close-button" onClick="closeNotification()">
+              Close
+            </button>
+            <button id="restart-button" onClick="restartApp()" class="hidden">
+              Restart
+            </button>
+          </div>
         </div>
       </div>
     </div>
