@@ -51,7 +51,7 @@ ipcRenderer.on("app_version", (event, arg) => {
 
 ipcRenderer.on("update_available", () => {
   ipcRenderer.removeAllListeners("update_available");
-  message.innerText = "A new update is available. Downloading now...";
+  message.innerText = "A new update is available. Downloading now, not close the app (you can close this messagge)";
   notification.classList.remove("hidden");
 });
 
@@ -62,7 +62,3 @@ ipcRenderer.on("update_downloaded", () => {
   restartButton.classList.remove("hidden");
   notification.classList.remove("hidden");
 });
-
-/* maxResBtn.addEventListener("click", () => {
-  ipc.send("maximizeRestoreApp");
-}); */
