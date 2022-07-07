@@ -70,6 +70,8 @@ a {
 }
 
 .titleBar > .title {
+  display: flex;
+  align-items: center;
   margin-left: 10px;
   font-size: 18px;
   width: 100%;
@@ -79,6 +81,11 @@ a {
   -webkit-app-region: drag;
   font-family: "Kaushan Script", cursive;
   letter-spacing: 3px;
+}
+
+.title > p {
+  width: 50%;
+  font-size: 14px;
 }
 
 .topBar > .titleBarBtns {

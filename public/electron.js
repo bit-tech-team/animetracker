@@ -3,8 +3,11 @@ const { autoUpdater } = require("electron-updater");
 const path = require("path");
 const ipc = ipcMain;
 const isDev = require("electron-is-dev");
+
+let win;
+
 const createWindow = () => {
-  const win = new BrowserWindow({
+  win = new BrowserWindow({
     width: 1200,
     height: 680,
     minWidth: 940,
@@ -64,14 +67,6 @@ const createWindow = () => {
     }
   });
 
-  ipcMain.on("app_version", (event) => {
-    event.sender.send("app_version", { version: app.getVersion() });
-  });
-
-  ipcMain.on("restart_app", () => {
-    autoUpdater.quitAndInstall();
-  });
-
   win.on("maximize", () => {
     win.webContents.send("isMaximized");
   });
@@ -84,10 +79,6 @@ const createWindow = () => {
     win.webContents.send("update_available");
   });
 
-  autoUpdater.on("update-downloaded", () => {
-    win.webContents.send("update_downloaded");
-  });
-
   var handleRedirect = (e, url) => {
     if (url !== win.webContents.getURL()) {
       e.preventDefault();
@@ -97,8 +88,6 @@ const createWindow = () => {
 
   win.webContents.on("will-navigate", handleRedirect);
   win.webContents.on("new-window", handleRedirect);
-
-  autoUpdater.checkForUpdatesAndNotify();
 };
 
 app.whenReady().then(() => {
@@ -108,3 +97,17 @@ app.whenReady().then(() => {
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
+
+ipcMain.on("app_version", (event) => {
+  event.sender.send("app_version", { version: app.getVersion() });
+});
+
+autoUpdater.on("update-available", () => {
+  win.webContents.send("update_available");
+});
+
+autoUpdater.on("update-downloaded", () => {
+  win.webContents.send("update_downloaded");
+});
+
+autoUpdater.quitAndInstall();
