@@ -13,9 +13,18 @@
  <img src="https://img.shields.io/github/v/release/Bit-Tech-Team/Anime-Tracker" />
 </p>
 
-<h2>
-    Video Demo
-</h2>
+## Introduction
+
+<p>
+Anime Tracker is a desktop application for windows, developed with electron + react, which allows you to search for animes through 
+a scene that can be passed through a url or by uploading an image from your PC.
+
+This application was made possible thanks to the [soruly](https://github.com/soruly) api, don't forget to go through its repository and leave a star.
+
+**This application was powered by trace.moe-api** <a href="https://github.com/soruly/trace.moe-api"><img width="20px" height="20px" src="https://www.seekpng.com/png/detail/101-1017465_github-github-icon-png-grey.png" /></a>
+</p>
+
+## Video Demo
 
 https://user-images.githubusercontent.com/31443880/177372466-b0c239f3-7158-40a8-874a-4ca3d26387f4.mp4
 
@@ -25,3 +34,9 @@ https://user-images.githubusercontent.com/31443880/177372466-b0c239f3-7158-40a8-
 
 ## Report a bug
 🐛[create a new issue](https://github.com/Bit-Tech-Team/Anime-Tracker/issues/new)
+
+## Deploy in local
+
+Run ``yarn electron-dev`` to run the application in developer mode (**make sure that port 3000 is not in use**). If you want to compile the app run ``yarn electron-pack-build`` and this will create a folder called **dist** where the installation **.exe** is located
+
+
