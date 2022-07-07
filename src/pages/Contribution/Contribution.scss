@@ -12,17 +12,21 @@
     "side-left-top . side-right-top"
     "side-left-bottom . side-right-bottom";
 
+  ul{
+    margin-top: 20px;
+  }
+
   p {
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: "Telma-Variable";
+    font-family: 'Lato', sans-serif;
     text-align: justify;
   }
 
   li {
     list-style: none;
     letter-spacing: 0.5px;
-    font-family: "Telma-Variable";
+    font-family: 'Lato', sans-serif;
     text-align: justify;
   }
 
@@ -40,7 +44,7 @@
     padding: 10px;
 
     h1 {
-      font-family: "Telma-Variable";
+      font-family: 'Press Start 2P', cursive;
       text-align: center;
     }
   }
@@ -63,9 +67,12 @@
     .side-left-top__title {
       grid-area: side-left-top__title;
       padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       h3 {
-        font-family: "Telma-Variable";
+        font-family: 'Permanent Marker', cursive;
         text-align: left;
         letter-spacing: 2px;
         
@@ -96,9 +103,12 @@
     .side-right-top__title {
       grid-area: side-right-top__title;
       padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       h3 {
-        font-family: "Telma-Variable";
+        font-family: 'Permanent Marker', cursive;
         text-align: right;
         letter-spacing: 2px;
       }
@@ -129,9 +139,12 @@
     .side-left-bottom__title {
       grid-area: side-left-bottom__title;
       padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       h3 {
-        font-family: "Telma-Variable";
+        font-family: 'Permanent Marker', cursive;
         text-align: center;
         letter-spacing: 2px;
       }
@@ -162,9 +175,12 @@
     .side-right-bottom__title {
       grid-area: side-right-bottom__title;
       padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       h3 {
-        font-family: "Telma-Variable";
+        font-family: 'Permanent Marker', cursive;
         text-align: center;
         letter-spacing: 2px;
       }

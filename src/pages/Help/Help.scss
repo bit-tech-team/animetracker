@@ -18,7 +18,7 @@
     ". . .";
 
   p {
-    font-family: "Telma-Variable";
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
   }
@@ -28,7 +28,7 @@
     padding: 10px;
 
     h1 {
-      font-family: "Telma-Variable";
+      font-family: "Press Start 2P", cursive;
       text-align: center;
     }
   }
@@ -42,11 +42,6 @@
       width: 100%;
       display: flex;
       justify-content: center;
-    }
-
-    h1 {
-      font-family: "Telma-Variable";
-      text-align: left;
     }
   }
 }

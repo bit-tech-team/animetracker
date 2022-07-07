@@ -1,5 +1,11 @@
-body{
+@import "./scss/index.scss";
+
+body {
   background: #110f15;
+}
+
+i {
+  color: $primary-color-hover !important;
 }
 
 .Toastify {

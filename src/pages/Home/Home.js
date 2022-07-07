@@ -15,12 +15,12 @@ export default function Home() {
           Are you looking for an anime that you saw a long time ago in a video
           where a scene came out? or maybe you saw it on a tik-tok but couldn't
           find the name? Well, thanks to Anime Tracker you can find it by
-          entering an image scene. Not only that, you will also be able to know what
-          chapter it is about and much more useful information.
+          entering an image scene. Not only that, you will also be able to know
+          what chapter it is about and much more useful information.
         </p>
       </div>
       <div className="content-side">
-        <h4>Powered thanks to:</h4>
+        <h3>Powered thanks to:</h3>
         <ul>
           <li>
             trace.moe-api{" "}
@@ -31,7 +31,6 @@ export default function Home() {
                   openUrl("https://github.com/soruly/trace.moe-api")
                 }
               />
-              (repo api)
             </span>
           </li>
           <li>
@@ -41,7 +40,6 @@ export default function Home() {
                 name="github"
                 onClick={() => openUrl("https://github.com/soruly")}
               />
-              (profile)
             </span>
           </li>
           <li>
@@ -58,7 +56,6 @@ export default function Home() {
                 name="github"
                 onClick={() => openUrl("https://github.com/soruly/trace.moe")}
               />
-              (repo)
             </span>
           </li>
         </ul>

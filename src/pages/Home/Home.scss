@@ -18,8 +18,9 @@
     justify-content: center;
     grid-area: carousel-container;
     width: 100%;
+
     h1 {
-      font-family: "Telma-Variable";
+      font-family: "Press Start 2P", cursive;
     }
   }
 
@@ -29,26 +30,48 @@
     margin: 10px;
     display: flex;
     justify-content: center;
+
     p {
       margin-top: 50px;
       letter-spacing: 3px;
       font-size: 18px;
-      font-family: "Telma-Variable";
+      font-family: "Lato", sans-serif;
     }
   }
 
   .content-side {
-
     grid-area: content-side;
     padding: 5px;
-    h4 {
-      margin-top: 40px;
-      font-family: "Telma-Variable";
-      text-align: center;
+
+    & > div {
+      width: 100%;
+      height: 35px;
+      background-color: blue;
+      align-self: center;
+      margin-top: 55px;
+      display: flex;
+
+      p{
+        color: white;
+        font-size: 14px;
+      }
     }
+
+    h3 {
+      margin-top: 40px;
+      font-family: "Permanent Marker", cursive;
+      letter-spacing: 2px;
+    }
+
+    li {
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+    }
+
     i {
       cursor: pointer;
     }
+
     a {
       color: #949aa7;
       text-decoration: none;

@@ -70,12 +70,22 @@ a {
 }
 
 .titleBar > .title {
+  display: flex;
+  align-items: center;
   margin-left: 10px;
+  font-size: 18px;
   width: 100%;
   line-height: 30px;
   margin-top: 5px;
   padding-bottom: 5px;
   -webkit-app-region: drag;
+  font-family: "Kaushan Script", cursive;
+  letter-spacing: 3px;
+}
+
+.title > p {
+  width: 50%;
+  font-size: 14px;
 }
 
 .topBar > .titleBarBtns {
@@ -150,4 +160,19 @@ a {
   -webkit-box-align: center;
   -webkit-box-pack: center;
   display: -webkit-box;
+}
+
+/* css for update notification */
+#notification {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.hidden {
+  display: none;
 }

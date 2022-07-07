@@ -11,6 +11,8 @@
   position: -webkit-sticky !important;
   position: sticky;
   top: 0%;
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 2px;
 
   .top {
     position: -webkit-sticky !important;
@@ -25,6 +27,7 @@
     font-size: 16px;
     border-left: 4px solid transparent;
     width: 100%;
+    
 
     &:hover,
     &:active {
