@@ -71,11 +71,14 @@ a {
 
 .titleBar > .title {
   margin-left: 10px;
+  font-size: 18px;
   width: 100%;
   line-height: 30px;
   margin-top: 5px;
   padding-bottom: 5px;
   -webkit-app-region: drag;
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 3px;
 }
 
 .topBar > .titleBarBtns {

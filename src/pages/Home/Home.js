@@ -20,7 +20,7 @@ export default function Home() {
         </p>
       </div>
       <div className="content-side">
-        <h4>Powered thanks to:</h4>
+        <h3>Powered thanks to:</h3>
         <ul>
           <li>
             trace.moe-api{" "}
@@ -31,7 +31,6 @@ export default function Home() {
                   openUrl("https://github.com/soruly/trace.moe-api")
                 }
               />
-              (repo api)
             </span>
           </li>
           <li>
@@ -41,7 +40,6 @@ export default function Home() {
                 name="github"
                 onClick={() => openUrl("https://github.com/soruly")}
               />
-              (profile)
             </span>
           </li>
           <li>
@@ -58,7 +56,6 @@ export default function Home() {
                 name="github"
                 onClick={() => openUrl("https://github.com/soruly/trace.moe")}
               />
-              (repo)
             </span>
           </li>
         </ul>

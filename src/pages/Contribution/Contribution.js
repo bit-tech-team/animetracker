@@ -13,7 +13,7 @@ export default function Contribution() {
       {/* ------------------- APP CREATOR SECTION ------------------- */}
       <div className="side-left-top">
         <div className="side-left-top__title">
-          <h3>Contribute with the APP creator (Ridel/shakar)</h3>
+          <h3>Contribute with the APP creator (shakar)</h3>
         </div>
         <div className="side-left-top__content">
           <p>
@@ -114,7 +114,7 @@ export default function Contribution() {
 
       <div className="side-left-bottom">
         <div className="side-left-bottom__title">
-          <h3>Support the APP creator (Ridel/shakar)</h3>
+          <h3>Support the APP creator (shakar)</h3>
         </div>
         <div className="side-left-bottom__content">
           <p>
