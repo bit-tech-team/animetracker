@@ -15,14 +15,14 @@
   p {
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: justify;
   }
 
   li {
     list-style: decimal;
     letter-spacing: 0.5px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: justify;
     margin-bottom: 3px;
   }
@@ -38,12 +38,13 @@
 
   .header-terms {
     grid-area: header-terms;
-
     padding: 10px;
 
     h1 {
-      font-family: "Press Start 2P", cursive;
+      font-family: "Koulen", cursive;
+      letter-spacing: 2.5px;
       text-align: center;
+      font-size: 34px;
     }
   }
 
@@ -65,9 +66,12 @@
       padding: 10px;
 
       h3 {
-        font-family: 'Permanent Marker', cursive;
+        font-family: "Pathway Gothic One", sans-serif;
         text-align: right;
         letter-spacing: 2px;
+        font-size: 24px;
+        text-align: center;
+        word-spacing: 1.5px;
       }
     }
 
@@ -96,9 +100,12 @@
       padding: 10px;
 
       h3 {
-        font-family: 'Permanent Marker', cursive; 
+        font-family: "Pathway Gothic One", sans-serif;
         text-align: left;
         letter-spacing: 2px;
+        font-size: 24px;
+        text-align: center;
+        word-spacing: 1.5px;
       }
     }
 

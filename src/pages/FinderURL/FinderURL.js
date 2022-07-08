@@ -58,13 +58,8 @@ export default function FinderURL() {
           {Object.keys(item).length !== 0 && (
             <div className="content-video">
               <h1>{item.anilist.title.native}</h1>
-              <p>
-                <b>Episode:</b> {item.episode}
-              </p>
-              <p>
-                <b>Adult:</b> {item.anilist.isAdult ? "yes" : "no"}
-              </p>
-              <ReactPlayer playing loop volume={0.4} url={item.video} />
+              <ReactPlayer playing loop volume={0.4} muted url={item.video} />
+              <button className="show-detail" onClick={() => alert("work")}>Show details</button>
             </div>
           )}
         </div>

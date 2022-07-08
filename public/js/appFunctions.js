@@ -51,7 +51,7 @@ ipcRenderer.on("app_version", (event, arg) => {
 
 ipcRenderer.on("update_available", () => {
   ipcRenderer.removeAllListeners("update_available");
-  message.innerText = "A new update is available. Downloading now, not close the app (you can close this messagge)";
+  message.innerText = "A new update is available. Downloading now. Not close the app (you can close this messagge)";
   notification.classList.remove("hidden");
 });
 

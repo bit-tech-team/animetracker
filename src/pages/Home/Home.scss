@@ -20,7 +20,11 @@
     width: 100%;
 
     h1 {
-      font-family: "Press Start 2P", cursive;
+      padding: 10px;
+      font-family: "Koulen", cursive;
+      letter-spacing: 2.5px;
+      text-align: center;
+      font-size: 34px;
     }
   }
 
@@ -34,7 +38,7 @@
     p {
       margin-top: 50px;
       letter-spacing: 3px;
-      font-size: 18px;
+      font-size: 16px;
       font-family: "Lato", sans-serif;
     }
   }
@@ -51,7 +55,7 @@
       margin-top: 55px;
       display: flex;
 
-      p{
+      p {
         color: white;
         font-size: 14px;
       }
@@ -59,8 +63,11 @@
 
     h3 {
       margin-top: 40px;
-      font-family: "Permanent Marker", cursive;
+      font-family: "Pathway Gothic One", sans-serif;
+      text-align: center;
       letter-spacing: 2px;
+      word-spacing: 2px;
+      font-size: 22px;
     }
 
     li {
