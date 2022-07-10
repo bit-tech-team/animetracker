@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kaushan+Script&family=Lato:wght@400;700;900&family=Permanent+Marker&family=Press+Start+2P&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Pathway+Gothic+One&family=Saira+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -29,7 +29,8 @@
       <div class="topBar">
         <div class="titleBar">
           <div class="title">
-            Anime Tracker - <p id="version"></p>            
+            Anime Tracker -
+            <p id="version"></p>
           </div>
         </div>
         <div class="titleBarBtns">
@@ -46,12 +47,14 @@
           <div id="root"></div>
           <div id="notification" class="hidden">
             <p id="message"></p>
-            <button id="close-button" onClick="closeNotification()">
-              Close
-            </button>
-            <button id="restart-button" onClick="restartApp()" class="hidden">
-              Restart
-            </button>
+            <div class="buttons-update">
+              <button id="close-button" onClick="closeNotification()">
+                Close
+              </button>
+              <button id="restart-button" onClick="restartApp()" class="hidden">
+                Restart
+              </button>
+            </div>
           </div>
         </div>
       </div>

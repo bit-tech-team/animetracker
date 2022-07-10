@@ -8,13 +8,19 @@ const generarId = () => {
 
   return random + fecha;
 };
-const validURL = new RegExp("(https?://.*.(?:png|jpg|jpeg))");
+const validURL = new RegExp("^(https?://.*.(?:png|jpg|jpeg))$");
 const validFile = new RegExp("^.*.(jpg|jpeg|png)$");
 
-const millisToMinutesAndSeconds = (millis) => {
-  /* var minutes = Math.floor(millis / 60000); */
-  var seconds = ((millis % 60000) / 1000).toFixed(0);
-  return /* minutes + ":" +  */(seconds < 10 ? "0" : "") + seconds;
+const formatDate = (date) => {
+  let a = [];
+  let dateToString;
+
+  Object.entries(date).forEach(([key, value]) => {
+    a.push(value);
+  });
+
+  dateToString = a.toString().replace(",", "-").replace(",", "-");
+  return dateToString
 };
 
 module.exports = {
@@ -22,5 +28,5 @@ module.exports = {
   generarId,
   validURL,
   validFile,
-  millisToMinutesAndSeconds,
+  formatDate,
 };

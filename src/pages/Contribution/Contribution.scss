@@ -12,21 +12,21 @@
     "side-left-top . side-right-top"
     "side-left-bottom . side-right-bottom";
 
-  ul{
+  ul {
     margin-top: 20px;
   }
 
   p {
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: justify;
   }
 
   li {
     list-style: none;
     letter-spacing: 0.5px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: justify;
   }
 
@@ -44,8 +44,10 @@
     padding: 10px;
 
     h1 {
-      font-family: 'Press Start 2P', cursive;
+      font-family: "Koulen", cursive;
+      letter-spacing: 2.5px;
       text-align: center;
+      font-size: 34px;
     }
   }
 
@@ -72,10 +74,11 @@
       align-items: center;
 
       h3 {
-        font-family: 'Permanent Marker', cursive;
-        text-align: left;
+        font-family: "Pathway Gothic One", sans-serif;
+        text-align: center;
         letter-spacing: 2px;
-        
+        word-spacing: 2px;
+        font-size: 22px;
       }
     }
 
@@ -108,9 +111,11 @@
       align-items: center;
 
       h3 {
-        font-family: 'Permanent Marker', cursive;
-        text-align: right;
+        font-family: "Pathway Gothic One", sans-serif;
+        text-align: center;
         letter-spacing: 2px;
+        word-spacing: 2px;
+        font-size: 22px;
       }
     }
 
@@ -144,9 +149,11 @@
       align-items: center;
 
       h3 {
-        font-family: 'Permanent Marker', cursive;
+        font-family: "Pathway Gothic One", sans-serif;
         text-align: center;
         letter-spacing: 2px;
+        word-spacing: 2px;
+        font-size: 22px;
       }
     }
 
@@ -180,9 +187,11 @@
       align-items: center;
 
       h3 {
-        font-family: 'Permanent Marker', cursive;
+        font-family: "Pathway Gothic One", sans-serif;
         text-align: center;
         letter-spacing: 2px;
+        word-spacing: 2px;
+        font-size: 22px;
       }
     }
 
