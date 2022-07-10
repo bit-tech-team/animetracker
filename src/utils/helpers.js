@@ -11,22 +11,9 @@ const generarId = () => {
 const validURL = new RegExp("^(https?://.*.(?:png|jpg|jpeg))$");
 const validFile = new RegExp("^.*.(jpg|jpeg|png)$");
 
-const formatDate = (date) => {
-  let a = [];
-  let dateToString;
-
-  Object.entries(date).forEach(([key, value]) => {
-    a.push(value);
-  });
-
-  dateToString = a.toString().replace(",", "-").replace(",", "-");
-  return dateToString
-};
-
 module.exports = {
   openUrl,
   generarId,
   validURL,
   validFile,
-  formatDate,
 };

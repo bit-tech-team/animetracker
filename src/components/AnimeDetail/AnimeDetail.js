@@ -1,9 +1,21 @@
 import React from "react";
-import { generarId, formatDate } from "../../utils/helpers";
+import { generarId } from "../../utils/helpers";
 
 import "./AnimeDetail.scss";
 
 export default function AnimeDetail({ anime, anilist }) {
+  const formatDate = (date) => {
+    let a = [];
+    let dateToString;
+
+    Object.entries(date).forEach(([key, value]) => {
+      a.push(value);
+    });
+
+    dateToString = a.toString().replace(",", "-").replace(",", "-");
+    return dateToString;
+  };
+
   return (
     <div className="container-anime">
       <div className="anime-title">
