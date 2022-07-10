@@ -26,7 +26,7 @@ This application was made possible thanks to the [soruly](https://github.com/sor
 
 ## Video Demo
 
-https://user-images.githubusercontent.com/31443880/177372466-b0c239f3-7158-40a8-874a-4ca3d26387f4.mp4
+https://user-images.githubusercontent.com/31443880/178163036-2b315f26-2c07-458a-a5f3-8c25091c8a76.mp4
 
 ## Last version available
 
