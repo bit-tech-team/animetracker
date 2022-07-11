@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/31443880/178163036-2b315f26-2c07-458a-
 
 ## Last version available
 
-🚀[v1.0.1](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.1/AnimeTracker-1.0.1.exe)
+🚀[v1.0.2](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.2/AnimeTracker-Setup-1.0.2.exe)
 
 ## Report a bug
 🐛[create a new issue](https://github.com/Bit-Tech-Team/Anime-Tracker/issues/new)
