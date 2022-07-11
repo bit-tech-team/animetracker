@@ -19,7 +19,7 @@ const createWindow = () => {
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
-      devTools: false,
+      devTools: true,
       preload: path.join(__dirname, "./preload.js"),
     },
   });
@@ -111,3 +111,8 @@ autoUpdater.on("update-downloaded", () => {
 ipcMain.on("restart_app", () => {
   autoUpdater.quitAndInstall();
 });
+
+autoUpdater.on('error', (message) => {
+  console.error('There was a problem updating the application')
+  console.error(message)
+})
