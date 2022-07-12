@@ -33,7 +33,7 @@ This application was made possible thanks to the [soruly](https://github.com/sor
 
 ## Last version available
 
-🚀[v1.0.2](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.2/AnimeTracker-Setup-1.0.2.exe)
+🚀[v1.0.3](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.3/AnimeTracker-Setup-1.0.3.exe)
 
 ## Report a bug
 
