@@ -11,6 +11,7 @@ import "./FinderIMG.scss";
 import { generarId, validFile } from "../../utils/helpers";
 import AnimeDetail from "../../components/AnimeDetail/AnimeDetail";
 import BasicModal from "../../components/BasicModal/BasicModal";
+import CheckConnection from "../../components/CheckConnection/CheckConnection";
 
 export default function FinderIMG() {
   const { register, handleSubmit } = useForm();
@@ -144,7 +145,7 @@ export default function FinderIMG() {
   };
 
   return (
-    <>
+    <CheckConnection>
       <div className="container-search-url">
         <div className="header-search-url">
           <h1>Search for the anime using the image of an anime scene</h1>
@@ -157,6 +158,7 @@ export default function FinderIMG() {
                 playing
                 loop
                 volume={0.2}
+                muted
                 controls
                 url={item.video}
               />
@@ -226,6 +228,6 @@ export default function FinderIMG() {
       <BasicModal show={showModal} setShow={setShowModal} title={titleModal}>
         {contentModal}
       </BasicModal>
-    </>
+    </CheckConnection>
   );
 }

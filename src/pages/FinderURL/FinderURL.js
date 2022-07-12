@@ -10,6 +10,7 @@ import { generarId, validURL } from "../../utils/helpers";
 import "./FinderURL.scss";
 import BasicModal from "../../components/BasicModal/BasicModal";
 import AnimeDetail from "../../components/AnimeDetail/AnimeDetail";
+import CheckConnection from "../../components/CheckConnection/CheckConnection";
 
 export default function FinderURL() {
   const [inputVal, setInputVal] = useState("");
@@ -159,7 +160,7 @@ export default function FinderURL() {
   };
 
   return (
-    <>
+    <CheckConnection>
       <div className="container-search-url">
         <div className="header-search-url">
           <h1>Search for the anime using the url of an anime image scene</h1>
@@ -172,6 +173,7 @@ export default function FinderURL() {
                 playing
                 loop
                 volume={0.2}
+                muted
                 controls
                 url={item.video}
               />
@@ -232,6 +234,6 @@ export default function FinderURL() {
       <BasicModal show={showModal} setShow={setShowModal} title={titleModal}>
         {contentModal}
       </BasicModal>
-    </>
+    </CheckConnection>
   );
 }
