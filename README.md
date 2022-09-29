@@ -31,6 +31,29 @@ This application was made possible thanks to the [soruly](https://github.com/sor
 
 <https://user-images.githubusercontent.com/31443880/178163036-2b315f26-2c07-458a-a5f3-8c25091c8a76.mp4>
 
+## How to install
+
+First go to the following link [here](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.3/AnimeTracker-Setup-1.0.3.exe) 
+and the download will start automatically.
+
+![image](https://user-images.githubusercontent.com/31443880/187171283-9d1e0bb1-67bd-448b-9d9d-b83a0ce8c356.png)
+
+**NOTE: As you can see, windows tells you that it could be a malicious file, this is not true, it is because I have not added code signing yet, just click on save and that's it**
+
+Now when you click on the installer you will get the following pop-up for the same reason mentioned above, we simply click on "more information" and we will get a button that says "run anyway", and the app will start installing
+
+<table>
+    <tr>
+        <td>
+            <img src="https://user-images.githubusercontent.com/31443880/187172346-8f5f0579-5463-4222-a1ee-e0118c541367.png" />
+        </td>        
+        <td>
+            <img src="https://user-images.githubusercontent.com/31443880/187172607-04a4f859-99e9-48d8-bc9f-dd933ce82c1d.png" />
+        </td>
+    </tr>
+</table>
+
+
 ## Last version available
 
 🚀[v1.0.3](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.3/AnimeTracker-Setup-1.0.3.exe)
