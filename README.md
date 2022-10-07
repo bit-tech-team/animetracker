@@ -33,7 +33,7 @@ This application was made possible thanks to the [soruly](https://github.com/sor
 
 ## How to install
 
-First go to the following link [here](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.3/AnimeTracker-Setup-1.0.3.exe) 
+First go to the following link [here](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.4/AnimeTracker-Setup-1.0.4.exe) 
 and the download will start automatically.
 
 ![image](https://user-images.githubusercontent.com/31443880/187171283-9d1e0bb1-67bd-448b-9d9d-b83a0ce8c356.png)
