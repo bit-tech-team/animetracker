@@ -56,7 +56,7 @@ Now when you click on the installer you will get the following pop-up for the sa
 
 ## Last version available
 
-🚀[v1.0.3](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.3/AnimeTracker-Setup-1.0.3.exe)
+🚀[v1.0.4](https://github.com/Bit-Tech-Team/Anime-Tracker/releases/download/v1.0.4/AnimeTracker-Setup-1.0.4.exe)
 
 ## Report a bug
 
