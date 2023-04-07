@@ -4,12 +4,14 @@ import BNH from "../../assets/img/boku-no-hero.png";
 import ASS from "../../assets/img/arifureta.jpg";
 
 import "./Carousel.scss";
+import { useTranslation } from "react-i18next";
 
 export default function Carousel() {
+  const [t] = useTranslation("common");
   return (
     <>
       <div>
-        <h1>Easy way to find your favorite anime</h1>
+        <h1>{t("Home.title", { framework: "React" })}</h1>
         <figure className="icon-cards mt-3">
           <div className="icon-cards__content">
             <div className="icon-cards__item d-flex align-items-center justify-content-center">

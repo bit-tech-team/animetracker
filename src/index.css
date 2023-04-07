@@ -6,13 +6,13 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #949aa7;
 }
-:not(input):not(textarea),
+/* :not(input):not(textarea),
 :not(input):not(textarea)::after,
 :not(input):not(textarea)::before {
   -webkit-user-select: none;
   user-select: none;
   cursor: default;
-}
+} */
 input,
 button,
 textarea :focus {

@@ -9,8 +9,8 @@
   grid-auto-flow: row;
   grid-template-areas:
     "carousel-container carousel-container carousel-container"
-    "content content content-side"
-    "content content content-side";
+    "content content content"
+    "content content content";
 
   .carousel-container {
     display: flex;
@@ -39,6 +39,7 @@
       margin-top: 50px;
       letter-spacing: 3px;
       font-size: 16px;
+      text-align: center;
       font-family: "Lato", sans-serif;
     }
   }

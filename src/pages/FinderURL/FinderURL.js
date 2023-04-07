@@ -11,6 +11,7 @@ import "./FinderURL.scss";
 import BasicModal from "../../components/BasicModal/BasicModal";
 import AnimeDetail from "../../components/AnimeDetail/AnimeDetail";
 import CheckConnection from "../../components/CheckConnection/CheckConnection";
+import { useTranslation } from "react-i18next";
 
 export default function FinderURL() {
   const [inputVal, setInputVal] = useState("");
@@ -18,6 +19,7 @@ export default function FinderURL() {
   const [data, setData] = useState([]);
   const [errorPromise, setErrorPromise] = useState("");
   const [item, setItem] = useState({});
+  const [t] = useTranslation("common");
 
   const [showModal, setShowModal] = useState(false);
   const [titleModal, setTitleModal] = useState(null);
@@ -114,7 +116,6 @@ export default function FinderURL() {
       };
 
     function handleError(error) {
-      alert("Error, check console");
       console.error(error);
     }
 
@@ -163,7 +164,7 @@ export default function FinderURL() {
     <CheckConnection>
       <div className="container-search-url">
         <div className="header-search-url">
-          <h1>Search for the anime using the url of an anime image scene</h1>
+          <h1>{t("SearchUrl.title", { framework: "React" })}</h1>
         </div>
         <div className="result-found">
           {Object.keys(item).length !== 0 && (
@@ -181,14 +182,16 @@ export default function FinderURL() {
                 className="show-detail"
                 onClick={() => handlerModal(item)}
               >
-                Show details
+                {t("Buttons.show_detail", { framework: "React" })}
               </button>
             </div>
           )}
         </div>
         <div className="search-section">
           <div className="search-section__title">
-            <h3>Click on the magnifying glass to search</h3>
+            <h3>
+              {t("SearchUrl.search_button_title", { framework: "React" })}
+            </h3>
           </div>
           <div className="search-section__content">
             <div className="container-search">

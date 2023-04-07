@@ -3,6 +3,7 @@ import "./TopBar.scss";
 import { Icon, Image } from "semantic-ui-react";
 import { withRouter } from "react-router-dom";
 import LogoBTT from "../../assets/img/bttl.png";
+import LangButtons from "../LangButtons/LangButtons";
 
 function TopBar(props) {
   const { history } = props;
@@ -25,6 +26,7 @@ function TopBar(props) {
         >
           <Image src={LogoBTT} />
         </a>
+        <LangButtons />
       </div>
     </div>
   );

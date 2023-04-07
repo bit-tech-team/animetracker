@@ -1,0 +1,53 @@
+{
+  "Home": {
+    "title": "Easy way to find your favorite anime",
+    "description": "Are you looking for an anime that you saw a long time ago in a video where a scene came out? or maybe you saw it on a tik-tok but couldn't find the name? Well, thanks to Anime Tracker you can find it by entering an image scene. Not only that, you will also be able to know what chapter it is about and much more useful information."
+  },
+  "Menu": {
+    "home": "Home",
+    "how_to_use": "How to use",
+    "terms": "Terms",
+    "contribution": "Contribution",
+    "search_url": "Search with url",
+    "search_img": "Search with image"
+  },
+  "Buttons": {
+    "show_detail": "Show details",
+    "send": "Send"
+  },
+  "Common": {
+    "repo": "repositorie",
+    "open_issue": "Open an issue"
+  },
+  "SearchUrl": {
+    "title": "Search for the anime using the url of an anime image scene",
+    "search_button_title": "Click on the magnifying glass to search"
+  },
+  "SearchIMG": {
+    "title": "Search for the anime using the image of an anime scene",
+    "search_button_title": "Click on the buttom to select an image"
+  },
+  "Help": {
+    "title": "How does it work",
+    "description_part_one": "Go to the section of the menu to ,search by url, click on the magnifying glass and paste your url (only image formats are accepted: png, jpeg, jpg) and then press enter or go to the search by image menu section, click on the button and a window will open for you to select a file and then press the send button.",
+    "description_part_two": "You will see that it starts to load and then the content obtained will be listed, and you will only have to select the one you want to see its information. You have both case in the following example video:"
+  },
+  "Contribution": {
+    "title": "Feel free to contribute to the creators or support them",
+    "contrib_title_one": "Contribute with the APP creator (shakar)",
+    "contrib_des_one": "If you want to contribute with the APP here are some links.",
+    "contrib_title_two": "Contribute with the API creator (soruly)",
+    "contrib_des_two": "If you want to contribute with the API here are some links.",
+    "support_title_one": "Support the APP creator (shakar)",
+    "support_des_one": "Did you like the APP? Do you want to support the people who have made it possible? well then you have some links for it.",
+    "support_title_two": "Support the API creator (soruly)",
+    "support_des_two": "Did you like the API? Do you want to support the people who have made it possible? well then you have some links for it."
+  },
+  "Terms": {
+    "title": "Terms and Agreements",
+    "title_app": "Terms and Agreements to the APP",
+    "title_api": "Terms and Agreements to the API",
+    "description_app": "By using this APP, you implicity agree and aprove the terms and conditions of the API and the following:",
+    "description_api": "By using the trace.moe API, you implicitly agree and approve the below terms:"
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../scss/index.scss";
+
+.lang-container {
+  width: 80px;
+  height: auto;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+    button {
+      background-color: $primary-color;
+      border: none;
+      color: $font-light;
+      font-weight: bold;
+      width: 30px;
+      height: 20px;
+      border-radius: 20px;
+
+      &:hover{
+        background-color: $primary-color-hover;
+      }
+    }
+  }
+}

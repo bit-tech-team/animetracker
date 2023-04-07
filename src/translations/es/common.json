@@ -1,0 +1,53 @@
+{
+  "Home": {
+    "title": "Encuentra tu anime de manera sencilla",
+    "description": "¿Estás buscando un anime que viste hace mucho tiempo en un video donde salía una escena que te gustó? O tal vez lo viste en un tik-tok pero no pudiste encontrar el nombre? Pues gracias a Anime Tracker puedes encontrarlo introduciendo una imagen de la escena. No solo eso, también podrás saber de qué capítulo se trata y mucha más información útil."
+  },
+  "Menu": {
+    "home": "Home",
+    "how_to_use": "Guía de uso",
+    "terms": "Terminos",
+    "contribution": "Contribuir",
+    "search_url": "Buscar con url",
+    "search_img": "Buscar con imagen"
+  },
+  "Buttons": {
+    "show_detail": "Ver detalles",
+    "send": "Enviar"
+  },
+  "Common": {
+    "repo": "repositorio",
+    "open_issue": "Abre un issue"
+  },
+  "SearchUrl": {
+    "title": "Busca el anime mediante la URL de una imagen",
+    "search_button_title": "Haga click en la lupa para buscar"
+  },
+  "SearchIMG": {
+    "title": "Busca el anime usando la imagen de una escena de anime",
+    "search_button_title": "Haga click en el botón para seleccionar una imagen"
+  },
+  "Help": {
+    "title": "Como usar la aplicación",
+    "description_part_one": "Vaya a la sección del menú para buscar por url, haga clic en el la lupa y pega tu url (solo se aceptan los formatos de imagen: png, jpeg, jpg) y luego presione enter o vaya al menú de búsqueda por imagen, haga clic en el botón y se abrirá una ventana para que seleccione un archivo y luego presione el botón enviar.",
+    "description_part_two": "Verás que empieza a cargar y luego se listará el contenido obtenido, y solo tendrás que seleccionar el que quieras para ver su información. Tienes ambos casos en el siguiente video de ejemplo:"
+  },
+  "Contribution": {
+    "title": "Sientete libre de contribuir con los creadores o apoyarlos",
+    "contrib_title_one": "Contribuye con el creador de la APP (shakar)",
+    "contrib_des_one": "Si quieres contribuir con la APP aquí tienes unos enlaces.",
+    "contrib_title_two": "Contribuye con el creador/a de la API (soruly)",
+    "contrib_des_two": "Si quieres contribuir con la API aquí tienes algunos enlaces.",
+    "support_title_one": "Apoya al creador de la aplicación (shakar)",
+    "support_des_one": "¿Te gustó la aplicación? ¿Quieres apoyar a las personas que lo han hecho posible? Bueno, entonces aquí tienes algunos enlaces para ello.",
+    "support_title_two": "Apoya al creador/a de API (soruly)",
+    "support_des_two": "¿Te gustó la API? ¿Quieres apoyar a las personas que lo han hecho posible? Bueno, entonces aquí tienes algunos enlaces para ello."
+  },
+  "Terms": {
+    "title": "Terminos y acuerdos",
+    "title_app": "",
+    "title_api": "",
+    "description_app": "",
+    "description_api": ""
+  }
+}
