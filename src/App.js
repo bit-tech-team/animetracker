@@ -1,8 +1,10 @@
 import { React } from "react";
 import IndexLayout from "./layouts/IndexLayout/IndexLayout";
 import { ToastContainer } from "react-toastify";
+
 import "./App.scss";
-function App() {
+
+const App = () => {
   return (
     <>
       <IndexLayout />
@@ -19,6 +21,6 @@ function App() {
       />
     </>
   );
-}
+};
 
 export default App;

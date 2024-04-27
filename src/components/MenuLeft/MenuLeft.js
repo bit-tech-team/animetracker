@@ -60,15 +60,6 @@ function MenuLeft(props) {
         <div className="footer">
           <Menu.Item
             as={Link}
-            to="/terms"
-            active={activeMenu === "/terms"}
-            onClick={handlerMenu}
-          >
-            <Icon name="book" /> {t("Menu.terms", { framework: "React" })}
-          </Menu.Item>
-
-          <Menu.Item
-            as={Link}
             to="/contribution"
             active={activeMenu === "/contribution"}
             onClick={handlerMenu}

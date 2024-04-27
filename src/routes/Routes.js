@@ -7,7 +7,6 @@ import Help from "../pages/Help";
 import Contribution from "../pages/Contribution";
 import FinderURL from "../pages/FinderURL";
 import FinderIMG from "../pages/FinderIMG";
-import Terms from "../pages/Terms";
 
 export default function Routes() {
   return (
@@ -26,9 +25,6 @@ export default function Routes() {
       </Route>
       <Route path="/finder-image">
         <FinderIMG />
-      </Route>
-      <Route path="/terms">
-        <Terms />
       </Route>
     </Switch>
   );

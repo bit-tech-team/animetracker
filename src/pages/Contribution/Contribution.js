@@ -62,57 +62,9 @@ export default function Contribution() {
 
       <div className="side-right-top">
         <div className="side-right-top__title">
-          <h3>{t("Contribution.contrib_title_two", { framework: "React" })}</h3>
-        </div>
-        <div className="side-right-top__content">
-          <p>{t("Contribution.contrib_des_two", { framework: "React" })}</p>
-          <ul className="highlight">
-            <li>
-              <span>
-                <Icon
-                  name="github"
-                  onClick={() =>
-                    openUrl("https://github.com/soruly/trace.moe-api")
-                  }
-                />
-              </span>
-              <a
-                rel="noopener noreferrer"
-                href="https://github.com/soruly/trace.moe-api"
-                target="_blank"
-              >
-                API {t("Common.repo", { framework: "React" })}
-              </a>
-            </li>
-
-            <li>
-              <span>
-                <Icon
-                  name="github"
-                  onClick={() =>
-                    openUrl(
-                      "https://github.com/soruly/trace.moe-api/issues/new"
-                    )
-                  }
-                />
-              </span>
-              <a
-                rel="noopener noreferrer"
-                href="https://github.com/soruly/trace.moe-api/issues/new"
-                target="_blank"
-              >
-                {t("Common.open_issue", { framework: "React" })}
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="side-left-bottom">
-        <div className="side-left-bottom__title">
           <h3>{t("Contribution.support_title_one", { framework: "React" })}</h3>
         </div>
-        <div className="side-left-bottom__content">
+        <div className="side-right-top__content">
           <p>{t("Contribution.support_des_one", { framework: "React" })}</p>
           <ul className="highlight">
             <li>
@@ -160,64 +112,6 @@ export default function Contribution() {
                 target="_blank"
               >
                 PayPal
-              </a>{" "}
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      {/* ------------------- API CREATOR SECTION ------------------- */}
-      <div className="side-right-bottom">
-        <div className="side-right-bottom__title">
-          <h3>{t("Contribution.support_title_two", { framework: "React" })}</h3>
-        </div>
-        <div className="side-right-bottom__content">
-          <p>{t("Contribution.support_des_two", { framework: "React" })}</p>
-          <ul className="highlight">
-            <li>
-              <span>
-                <Icon
-                  name="heart"
-                  onClick={() => openUrl("https://github.com/sponsors/soruly")}
-                />
-              </span>
-              <a
-                rel="noopener noreferrer"
-                href="https://github.com/sponsors/soruly"
-                target="_blank"
-              >
-                GitHub Sponsor
-              </a>{" "}
-            </li>
-
-            <li>
-              <span>
-                <Icon
-                  name="paypal"
-                  onClick={() => openUrl("https://www.paypal.me/soruly/")}
-                />
-              </span>
-              <a
-                rel="noopener noreferrer"
-                href="https://www.paypal.me/soruly/"
-                target="_blank"
-              >
-                PayPal
-              </a>{" "}
-            </li>
-            <li>
-              <span>
-                <Icon
-                  name="patreon"
-                  onClick={() => openUrl("https://www.patreon.com/soruly")}
-                />
-              </span>
-              <a
-                rel="noopener noreferrer"
-                href="https://www.patreon.com/soruly"
-                target="_blank"
-              >
-                Patreon
               </a>{" "}
             </li>
           </ul>

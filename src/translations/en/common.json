@@ -33,12 +33,12 @@
     "description_part_two": "You will see that it starts to load and then the content obtained will be listed, and you will only have to select the one you want to see its information. You have both case in the following example video:"
   },
   "Contribution": {
-    "title": "Feel free to contribute to the creators or support them",
-    "contrib_title_one": "Contribute with the APP creator (shakar)",
+    "title": "Feel free to contribute or support the app",
+    "contrib_title_one": "Contribute with the APP creator",
     "contrib_des_one": "If you want to contribute with the APP here are some links.",
     "contrib_title_two": "Contribute with the API creator (soruly)",
     "contrib_des_two": "If you want to contribute with the API here are some links.",
-    "support_title_one": "Support the APP creator (shakar)",
+    "support_title_one": "Support the APP creator",
     "support_des_one": "Did you like the APP? Do you want to support the people who have made it possible? well then you have some links for it.",
     "support_title_two": "Support the API creator (soruly)",
     "support_des_two": "Did you like the API? Do you want to support the people who have made it possible? well then you have some links for it."
