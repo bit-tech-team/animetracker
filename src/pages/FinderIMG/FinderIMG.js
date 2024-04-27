@@ -37,6 +37,12 @@ export default function FinderIMG() {
     setAnilist([]);
   }
 
+  /**
+   * Function that fetch de data in de form and send
+   * the request to the api
+   * @param {*} data 
+   * @returns Promise
+   */
   const fetchForm = async (data) => {
     const formData = new FormData();
     formData.append("file", data.file[0]);
@@ -136,6 +142,10 @@ export default function FinderIMG() {
     setShowModal(true);
   };
 
+  /**
+   * Function that send the data
+   * @param {*} data 
+   */
   const onSubmit = async (data) => {
     setData([]);
     setItem({});

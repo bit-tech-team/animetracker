@@ -14,9 +14,15 @@ function MenuLeft(props) {
     setActiveMenu(location.pathname);
   }, [location]);
 
+  /**
+   * Chnage the active menu
+   * @param {*} e event
+   * @param {*} menu menu item
+   */
   const handlerMenu = (e, menu) => {
     setActiveMenu(menu.to);
   };
+
   return (
     <>
       <Menu className="menu-left" vertical>
