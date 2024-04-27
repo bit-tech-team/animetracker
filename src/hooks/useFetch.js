@@ -10,6 +10,9 @@ const useFetch = (url) => {
 
   const cancelTokenSource = axios.CancelToken.source();
 
+  /**
+   * Hook to make fetch request to the api
+   */
   const fetchData = useCallback(async () => {
     try {
       const response = await axios.get(url, {

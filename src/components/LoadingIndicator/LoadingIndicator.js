@@ -7,6 +7,7 @@ import "./LoadingIndicator.scss";
 
 export default function LoadingIndicator(props) {
   const { promiseInProgress } = usePromiseTracker();
+  
   return (
     promiseInProgress && (
       <div

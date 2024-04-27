@@ -4,6 +4,12 @@ import { generarId } from "../../utils/helpers";
 import "./AnimeDetail.scss";
 
 export default function AnimeDetail({ anime, anilist }) {
+
+  /**
+   * Function that format the date
+   * @param {*} date receive the date
+   * @returns string
+   */
   const formatDate = (date) => {
     let a = [];
     let dateToString;

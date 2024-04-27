@@ -5,6 +5,7 @@ import "./LangButtons.scss";
 
 export default function LangButtons() {
   const [t, i18n] = useTranslation("common");
+  
   return (
     <div className="lang-container">
       <div className="lang-container__wrapper">

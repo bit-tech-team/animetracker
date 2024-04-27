@@ -7,6 +7,9 @@ import "./BasicModal.scss";
 export default function BasicModal(props) {
   const { show, setShow, title, children } = props;
 
+  /**
+   * Function that close the modal
+   */
   const onClose = () => {
     setShow(false);
   };
